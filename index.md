@@ -8,6 +8,6 @@ I am an incoming Computer Science Masters student at Stanford University, where 
 
 ## Updates
 
-- **[Jul. 2023]** 
+- **[Jul. 2023]** Created this personal portfolio webpage.
 
 {% include_relative _includes/projects.md %}
