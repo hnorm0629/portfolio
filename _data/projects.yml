@@ -1,6 +1,6 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+  - title: "DyDef: A Visualization Tool for Dynamic Deformations on Shell Objects"
     authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
     course: CS348K
     conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
@@ -10,7 +10,7 @@ main:
     image: ./assets/img/cs348k_img2.png
     notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+  - title: "GIMME: 3D Gaussian Inverse Rendering for Mobile Mesh Extraction"
     authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
     course: CS231N
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
@@ -21,7 +21,7 @@ main:
     notes: Oral Presentation
     image: ./assets/img/cs231n_img.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+  - title: "Pac-Man Pinball Simulation with Collision Detection"
     authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
     course: CS248B
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
@@ -32,7 +32,7 @@ main:
     notes: Oral Presentation
     image: ./assets/img/cs248b_img2.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+  - title: "Realistic Ray-Traced Scene Recreation in Blender"
     authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
     course: CS148
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
