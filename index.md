@@ -15,7 +15,7 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 
 {% include_relative _includes/projects.md %}
 
-## Relevant Courses
+## Relevant Coursework
 
 ### Graphics / Systems
 
