@@ -11,7 +11,7 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 - **[Sept 2024]** Began Autumn quarter job as Course Assistant for CS148: Introduction to Computer Graphics and Imaging.
 - **[June 2024]** Started my summer internship as a Computer Graphics Engineer @ Sileom.
 - **[June 2024]** Finished Year 1 of my MSCS! Check out what I worked on below.
-- **[Apr 2024]** Won competetion for Stanford CS Dept's Annual Unofficial T-Shirt and Hoodie Competition! See my designs [_here_](www.google.com).
+- **[Apr 2024]** Won competetion for Stanford CS Dept's Annual Unofficial T-Shirt and Hoodie Competition! See my designs [_here_](https://movementink.bigcartel.com/product/stanford-black-shirt).
 - **[Sept 2023]** Began MSCS Program at Stanford University with plans to graduate in June 2025.
 - **[May 2023]** Graduated from Georgetown University with a B.S. in Computer Science and a minor in Mathematics.
 
