@@ -4,7 +4,7 @@ main:
     description: Description here!
     course: CS348K
     date: June 2024
-    report: https://arxiv.org/pdf/2306.00988.pdf
+    report: ./assets/files/cs348k_report.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
     demo: https://www.google.com
     image: ./assets/img/cs348k_img2.png
@@ -13,7 +13,7 @@ main:
     description: Description here!
     course: CS231N
     date: June 2024
-    report: https://arxiv.org/pdf/2002.10211.pdf
+    report: ./assets/files/cs231n_report.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     image: ./assets/img/cs231n_img.png
 
@@ -21,7 +21,7 @@ main:
     description: Description here!
     course: CS148
     date: Dec 2023
-    report: https://arxiv.org/pdf/2002.10211.pdf
+    report: ./assets/files/cs148_report.pdf
     demo: https://www.google.com
     image: ./assets/img/cs148_img.png
 
@@ -29,7 +29,7 @@ main:
     description: Description here!
     course: CS248B
     date: Oct 2023
-    report: https://arxiv.org/pdf/2002.10211.pdf
+    report: ./assets/files/cs248b_report.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     demo: https://www.google.com
     image: ./assets/img/cs248b_img2.png
