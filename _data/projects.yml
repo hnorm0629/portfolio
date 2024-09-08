@@ -4,15 +4,16 @@ main:
     description: Description here!
     course: CS348K
     date: June 2024
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
+    report: https://arxiv.org/pdf/2306.00988.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
+    demo: https://www.google.com
     image: ./assets/img/cs348k_img2.png
 
   - title: "GIMME: 3D Gaussian Inverse Rendering for Mobile Mesh Extraction"
     description: Description here!
     course: CS231N
     date: June 2024
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    report: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     image: ./assets/img/cs231n_img.png
 
@@ -20,14 +21,15 @@ main:
     description: Description here!
     course: CS148
     date: Dec 2023
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    report: https://arxiv.org/pdf/2002.10211.pdf
+    demo: https://www.google.com
     image: ./assets/img/cs148_img.png
 
   - title: "Pac-Man Pinball Simulation with Collision Detection"
     description: Description here!
     course: CS248B
     date: Oct 2023
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    report: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    demo: https://www.google.com
     image: ./assets/img/cs248b_img2.png
