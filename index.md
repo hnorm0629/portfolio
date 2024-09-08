@@ -8,7 +8,7 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 
 ## Updates
 
-- **[Sept 2023]** Began Masters in Computer Science (MSCS) Program at Stanford University, with an expected graduation date of June 2025.
+- **[Sept 2023]** Began MSCS Program at Stanford University, with an expected graduation date of June 2025.
 - **[May 2023]** Graduated from Georgetown University with a B.S. in Computer Science and a minor in Mathematics.
 
 {% include_relative _includes/projects.md %}
