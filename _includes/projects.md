@@ -17,8 +17,8 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+      <div class="author">{{ link.description }}</div>
+      <div class="periodical"><em>{{ link.date }}</em>
       </div>
     <div class="links">
       {% if link.pdf %} 
@@ -58,7 +58,7 @@
 
 1. **[Publication Title 1](link_to_pdf)**  
    _Author 1, Author 2, Author 3_  
-   *Conference Name or Journal*  
+   *date Name or Journal*  
    [PDF](link_to_pdf) | [Code](link_to_code) | [Project Page](link_to_project_page) | [BibTex](link_to_bibtex)  
    _Note: Special note or additional information_  -->
 
