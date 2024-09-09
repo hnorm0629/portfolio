@@ -24,7 +24,7 @@ main:
     code: https://github.com/sagems/pineapple_classification
     image: ./assets/img/cs131_img.png
 
-  - title: "Real-Time Pixelated Toon Shaders with Phong Illumination"
+  - title: "Real-Time Pixelated Toon Shaders"
     description: Description here!
     course: CS248A
     date: Mar 2024
