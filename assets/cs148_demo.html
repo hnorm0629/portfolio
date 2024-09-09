@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Screen Image Slider</title>
+    <title>CS148 Scene Demo</title>
     <style>
         /* Basic page layout */
         body, html {
@@ -49,6 +49,9 @@
             height: 100%;
             object-fit: cover;
             pointer-events: none; /* Prevent interaction with the image */
+            user-select: none; /* Prevent selecting the image */
+            -webkit-user-drag: none; /* Disable dragging on Webkit browsers */
+            draggable: false; /* Disable dragging */
         }
 
         /* The slider bar */
@@ -81,11 +84,11 @@
 
 <div class="slider-container">
     <!-- Background image -->
-    <img src="img/cs148_reference.png" alt="Background" class="image-background">
+    <img src="img/cs148_reference.png" alt="Background" class="image-background" draggable="false">
     
     <!-- Foreground image with slider -->
     <div class="image-foreground" id="slider">
-        <img src="img/cs148_final.png" alt="Foreground">
+        <img src="img/cs148_final.png" alt="Foreground" draggable="false">
         <div class="slider-bar" id="slider-bar"></div>
     </div>
     
@@ -115,14 +118,4 @@
         let sliderRect = slider.getBoundingClientRect();
         let newWidth = e.clientX - sliderRect.left;
 
-        // Ensure the slider stays within bounds
-        if (newWidth < 0) newWidth = 0;
-        if (newWidth > window.innerWidth) newWidth = window.innerWidth;
-
-        // Set the width of the foreground image container
-        slider.style.width = newWidth + 'px';
-    });
-</script>
-
-</body>
-</html>
+        // Ensure the slider stays within 
