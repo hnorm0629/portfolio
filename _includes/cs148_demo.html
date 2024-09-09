@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        /* Basic page layout */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container for the images */
+        .slider-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Background image */
+        .image-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Foreground image (the one with the slider) */
+        .image-foreground {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 50%; /* Start with 50% visible */
+            overflow: hidden;
+        }
+
+        .image-foreground img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* The slider bar */
+        .slider-bar {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            cursor: ew-resize;
+        }
+
+        /* Optional styling for the page */
+        .slider-hint {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slider-container">
+    <!-- Background image -->
+    <img src="background-image.jpg" alt="Background" class="image-background">
+    
+    <!-- Foreground image with slider -->
+    <div class="image-foreground" id="slider">
+        <img src="foreground-image.jpg" alt="Foreground">
+        <div class="slider-bar" id="slider-bar"></div>
+    </div>
+    
+    <!-- Optional text hint -->
+    <div class="slider-hint">Drag the slider to reveal the image below</div>
+</div>
+
+<script>
+    const slider = document.getElementById('slider');
+    const sliderBar = document.getElementById('slider-bar');
+    let isDragging = false;
+
+    sliderBar.addEventListener('mousedown', function () {
+        isDragging = true;
+    });
+
+    document.addEventListener('mouseup', function () {
+        isDragging = false;
+    });
+
+    document.addEventListener('mousemove', function (e) {
+        if (!isDragging) return;
+
+        // Get the mouse position and calculate the new width of the foreground image
+        let sliderRect = slider.getBoundingClientRect();
+        let newWidth = e.clientX - sliderRect.left;
+
+        // Ensure the slider stays within bounds
+        if (newWidth < 0) newWidth = 0;
+        if (newWidth > sliderRect.width) newWidth = sliderRect.width;
+
+        // Set the width of the foreground image container
+        slider.style.width = newWidth + 'px';
+    });
+</script>
+
+</body>
+</html>
