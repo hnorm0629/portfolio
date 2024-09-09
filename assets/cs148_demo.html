@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS148 Scene Demo</title>
+    <title>Full Screen Image Slider</title>
     <style>
         /* Basic page layout */
         body, html {
@@ -101,9 +101,17 @@
     const sliderBar = document.getElementById('slider-bar');
     let isDragging = false;
 
-    sliderBar.addEventListener('mousedown', function () {
+    // Prevent default dragging behavior for images
+    document.querySelectorAll('img').forEach(img => {
+        img.addEventListener('dragstart', function(event) {
+            event.preventDefault();
+        });
+    });
+
+    sliderBar.addEventListener('mousedown', function (e) {
         isDragging = true;
         document.body.style.userSelect = 'none';
+        e.preventDefault(); // Prevent text/image selection
     });
 
     document.addEventListener('mouseup', function () {
@@ -113,9 +121,20 @@
 
     document.addEventListener('mousemove', function (e) {
         if (!isDragging) return;
+        e.preventDefault(); // Prevent text/image selection
 
         // Get the mouse position and calculate the new width of the foreground image
         let sliderRect = slider.getBoundingClientRect();
         let newWidth = e.clientX - sliderRect.left;
 
-        // Ensure the slider stays within 
+        // Ensure the slider stays within bounds
+        if (newWidth < 0) newWidth = 0;
+        if (newWidth > window.innerWidth) newWidth = window.innerWidth;
+
+        // Set the width of the foreground image container
+        slider.style.width = newWidth + 'px';
+    });
+</script>
+
+</body>
+</html>
