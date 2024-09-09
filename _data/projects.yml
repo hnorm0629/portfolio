@@ -7,7 +7,7 @@ main:
     report: ./assets/files/cs348k_report.pdf
     code: https://github.com/hnorm0629/cs348k-final-project
     demo: https://drive.google.com/file/d/1vd0rS6lsXAV9DAzWbj2S-spYk_C1OSi_/view?usp=sharing
-    image: ./assets/img/cs348k_img2.png
+    image: ./assets/img/cs348k_img3.png
 
   - title: "GIMME: 3D Gaussian Inverse Rendering for Mobile Mesh Extraction"
     description: Description here!
