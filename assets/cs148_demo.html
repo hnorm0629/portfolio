@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Screen Image Slider</title>
+    <title>CS148 Scene Comparison</title>
     <style>
         /* Basic page layout */
         body, html {
@@ -33,19 +33,21 @@
             pointer-events: none; /* Prevent interaction with the background */
         }
 
-        /* Foreground image (the one with the slider) */
+        /* Foreground image container with a mask */
         .image-foreground {
             position: absolute;
             top: 0;
             left: 0;
             height: 100%;
-            width: 50%; /* Start with 50% visible */
-            overflow: hidden;
-            user-select: none; /* Prevent image from being highlighted */
+            width: 50%; /* Initial visibility width */
+            overflow: hidden; /* Create a mask */
         }
 
         .image-foreground img {
-            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;  /* Image stays fixed, but mask reveals more/less */
             height: 100%;
             object-fit: cover;
             pointer-events: none; /* Prevent interaction with the image */
@@ -86,7 +88,7 @@
     <!-- Background image -->
     <img src="img/cs148_reference.png" alt="Background" class="image-background" draggable="false">
     
-    <!-- Foreground image with slider -->
+    <!-- Foreground image with slider, image stays fixed, container adjusts -->
     <div class="image-foreground" id="slider">
         <img src="img/cs148_final.png" alt="Foreground" draggable="false">
         <div class="slider-bar" id="slider-bar"></div>
@@ -123,15 +125,15 @@
         if (!isDragging) return;
         e.preventDefault(); // Prevent text/image selection
 
-        // Get the mouse position and calculate the new width of the foreground image
+        // Get the mouse position and calculate the new width of the mask (foreground image container)
         let sliderRect = slider.getBoundingClientRect();
         let newWidth = e.clientX - sliderRect.left;
 
-        // Ensure the slider stays within bounds
+        // Ensure the mask stays within bounds
         if (newWidth < 0) newWidth = 0;
         if (newWidth > window.innerWidth) newWidth = window.innerWidth;
 
-        // Set the width of the foreground image container
+        // Adjust the width of the foreground image container (mask)
         slider.style.width = newWidth + 'px';
     });
 </script>
