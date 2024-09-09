@@ -16,6 +16,14 @@ main:
     report: ./assets/files/cs231n_report.pdf
     image: ./assets/img/cs231n_img.png
 
+- title: "Multispectral Satellite Image Segmentation for Agricultural Land Classification: Mapping Pineapple Plantations in Costa Rica"
+    description: Description here!
+    course: CS131
+    date: Mar 2024
+    report: ./assets/files/cs131_report.pdf
+    code: https://github.com/sagems/pineapple_classification
+    image: ./assets/img/cs131_img.png
+
   - title: "Real-Time Pixelated Toon Shaders with Phong Illumination"
     description: Description here!
     course: CS248A
