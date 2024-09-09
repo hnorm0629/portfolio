@@ -21,7 +21,7 @@ main:
     course: CS148
     date: Dec 2023
     report: ./assets/files/cs148_report.pdf
-    demo: ./_includes/cs148_demo.html
+    demo: ./assets/cs148_demo.html
     image: ./assets/img/cs148_img.png
 
   - title: "Pac-Man Pinball Simulation with Collision Detection"
