@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Slider</title>
+    <title>Full Screen Image Slider</title>
     <style>
         /* Basic page layout */
         body, html {
             height: 100%;
             margin: 0;
             font-family: Arial, sans-serif;
+            overflow: hidden;
         }
 
         /* Container for the images */
         .slider-container {
             position: relative;
-            width: 100%;
-            height: 100%;
-            max-width: 800px;
-            margin: auto;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
         }
 
         /* Background image */
@@ -85,7 +85,7 @@
     </div>
     
     <!-- Optional text hint -->
-    <div class="slider-hint">Drag the slider to reveal the image below</div>
+    <div class="slider-hint">The final Blender scene is on top! Drag the slider to reveal the reference image below.</div>
 </div>
 
 <script>
@@ -110,7 +110,7 @@
 
         // Ensure the slider stays within bounds
         if (newWidth < 0) newWidth = 0;
-        if (newWidth > sliderRect.width) newWidth = sliderRect.width;
+        if (newWidth > window.innerWidth) newWidth = window.innerWidth;
 
         // Set the width of the foreground image container
         slider.style.width = newWidth + 'px';
