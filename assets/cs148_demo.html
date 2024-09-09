@@ -100,10 +100,12 @@
 
     sliderBar.addEventListener('mousedown', function () {
         isDragging = true;
+        document.body.style.userSelect = 'none';
     });
 
     document.addEventListener('mouseup', function () {
         isDragging = false;
+        document.body.style.userSelect = '';
     });
 
     document.addEventListener('mousemove', function (e) {
