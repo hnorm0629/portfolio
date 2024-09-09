@@ -16,7 +16,15 @@ main:
     report: ./assets/files/cs231n_report.pdf
     image: ./assets/img/cs231n_img.png
 
-  - title: "Realistic Ray-Traced Scene Recreation in Blender"
+  - title: "Real-Time Pixelated Toon Shaders with Phong Illumination"
+    description: Description here!
+    course: CS248A
+    date: Mar 2024
+    report: ./assets/files/cs248a_report.pdf
+    demo: https://drive.google.com/file/d/1jEWQPONUdm6ltALwjdHKUk-0RKyhX9dG/view?usp=sharing
+    image: ./assets/img/cs248a_img.png
+
+  - title: "Ray-Traced Scene Recreation in Blender"
     description: Description here!
     course: CS148
     date: Dec 2023
