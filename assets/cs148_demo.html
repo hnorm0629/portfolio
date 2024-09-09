@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS148 Scene Comparison</title>
+    <title>Full Screen Image Slider</title>
     <style>
         /* Basic page layout */
         body, html {
@@ -44,11 +44,11 @@
         }
 
         .image-foreground img {
-            position: absolute;
+            position: absolute; /* Image stays stationary */
             top: 0;
             left: 0;
-            width: 100%;  /* Image stays fixed, but mask reveals more/less */
-            height: 100%;
+            width: 100vw;  /* Keep the image fixed in size, using full viewport width */
+            height: 100vh;  /* Keep the image fixed in size, using full viewport height */
             object-fit: cover;
             pointer-events: none; /* Prevent interaction with the image */
             user-select: none; /* Prevent selecting the image */
