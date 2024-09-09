@@ -19,6 +19,7 @@
             width: 100vw;
             height: 100vh;
             overflow: hidden;
+            user-select: none; /* Prevent text/image selection */
         }
 
         /* Background image */
@@ -29,6 +30,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            pointer-events: none; /* Prevent interaction with the background */
         }
 
         /* Foreground image (the one with the slider) */
@@ -39,12 +41,14 @@
             height: 100%;
             width: 50%; /* Start with 50% visible */
             overflow: hidden;
+            user-select: none; /* Prevent image from being highlighted */
         }
 
         .image-foreground img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            pointer-events: none; /* Prevent interaction with the image */
         }
 
         /* The slider bar */
@@ -56,6 +60,7 @@
             width: 10px;
             background-color: rgba(255, 255, 255, 0.8);
             cursor: ew-resize;
+            user-select: none; /* Prevent slider bar from being highlighted */
         }
 
         /* Optional styling for the page */
