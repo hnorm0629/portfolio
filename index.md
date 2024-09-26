@@ -8,9 +8,9 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 
 ## Updates
 
-- **[Oct 2024]** Continuing graphics and simulation work @ Sileom as an independent contractor.
+- **[Oct 2024]** Continuing graphics and simulation work at Sileom as an independent contractor.
 - **[Sept 2024]** Began Autumn quarter job as Course Assistant for CS148: Introduction to Computer Graphics and Imaging.
-- **[June 2024]** Started my summer internship as a Computer Graphics Engineer @ Sileom, an early-stage startup bringing state-of-the-art finite element analysis simulation techniques to VR and AR environments.
+- **[June 2024]** Started my summer internship as a Computer Graphics Engineer at Sileom, an early-stage startup bringing state-of-the-art finite element analysis simulation techniques to VR and AR environments.
 - **[June 2024]** Finished Year 1 of my MSCS! Check out what I worked on below.
 - **[Apr 2024]** Won competetion for Stanford CS Dept's Annual Unofficial T-Shirt and Hoodie Competition! See my designs [_here_](https://movementink.bigcartel.com/product/stanford-black-shirt).
 - **[Sept 2023]** Began MSCS Program at Stanford University with plans to graduate in June 2025.
