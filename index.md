@@ -35,3 +35,4 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 **(CS221)** Artificial Intelligence: Principles and Techniques  
 **(CS224N)** Natural Language Processing with Deep Learning  
 **(CS231N)** Deep Learning for Computer Vision
+**(CS528)** Machine Learning Systems Seminar
