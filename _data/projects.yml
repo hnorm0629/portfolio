@@ -1,7 +1,7 @@
 main:
 
   - title: "DyDef: A Visualization Tool for Dynamic Deformations on Shell Objects"
-    description: My project enhances a software library and its accompanying application, HalfPipe, to improve the visualization and simulation of dynamic deformations on shell structures.
+    description: I enhanced a software library and its accompanying application, HalfPipe, to improve the visualization and simulation of dynamic deformations on shell structures.
     course: CS348K
     date: June 2024
     report: ./assets/files/cs348k_report.pdf
@@ -10,7 +10,7 @@ main:
     image: ./assets/img/cs348k_img3.png
 
   - title: "GIMME: 3D Gaussian Inverse Rendering for Mobile Mesh Extraction"
-    description: Description here!
+    description: We utilized 3D Gaussian Splatting to enable real-time photorealistic mesh extraction from mobile-captured data, addressing the computational limits of Neural Radiance Fields.
     course: CS231N
     date: June 2024
     report: ./assets/files/cs231n_report.pdf
@@ -18,7 +18,7 @@ main:
     image: ./assets/img/cs231n_img.png
 
   - title: "Multispectral Satellite Image Segmentation for Agricultural Land Classification: Mapping Pineapple Plantations in Costa Rica"
-    description: Description here!
+    description: We leveraged Sentinel-2 satellite imagery and a Random Forest model to identify pineapple plantations in Costa Rica, filling gaps in agricultural land-use data from 2020 to 2023.
     course: CS131
     date: Mar 2024
     report: ./assets/files/cs131_report.pdf
@@ -26,7 +26,7 @@ main:
     image: ./assets/img/cs131_img.png
 
   - title: "Real-Time Pixelated Toon Shaders"
-    description: Description here!
+    description: We implemented shaders with Phong illumination, normal mapping, environment lighting, and shadow mapping, plus a pixelation filter and stylized toon shading.
     course: CS248A
     date: Mar 2024
     report: ./assets/files/cs248a_report.pdf
@@ -34,7 +34,7 @@ main:
     image: ./assets/img/cs248a_img.png
 
   - title: "Ray-Traced Scene Recreation in Blender"
-    description: Description here!
+    description: I recreated a scene from the videogame Stray in Blender, modeling almost every piece of geometry from scratch and designing all textures on my own, too.
     course: CS148
     date: Dec 2023
     report: ./assets/files/cs148_report.pdf
@@ -42,7 +42,7 @@ main:
     image: ./assets/img/cs148_img.png
 
   - title: "Pac-Man Pinball Simulation with Collision Detection"
-    description: Description here!
+    description: I designed and simulated a Pac-Man themed pinball game in Open Processing, using 2D shape primitives and SDFs to handle collisions with static and moving obstacles.
     course: CS248B
     date: Oct 2023
     report: ./assets/files/cs248b_report.pdf
