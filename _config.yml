@@ -4,6 +4,12 @@ position: Masters Student
 affiliation: Stanford University
 email: hnorman (at) stanford (dot) edu
 
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: Hannah Norman
+description: Hannah Norman is a current CS Masters student at Stanford University.
+canonical: https://hannah-norman.com
+
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 cv_link: assets/files/normanhannah_resume.pdf
