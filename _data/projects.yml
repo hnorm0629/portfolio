@@ -1,7 +1,7 @@
 main:
 
   - title: "DyDef: A Visualization Tool for Dynamic Deformations on Shell Objects"
-    description: My project enhances a software library and its accompanying application, HalfPipe, to improve the visualization and simulation of dynamic deformations on shell structures. I addressed key deficiencies in HalfPipe, including graphics errors, lack of interaction, missing quantitative statistics, and absence of post-processing features, while optimizing performance and usability for both novice and expert users.
+    description: My project enhances a software library and its accompanying application, HalfPipe, to improve the visualization and simulation of dynamic deformations on shell structures.
     course: CS348K
     date: June 2024
     report: ./assets/files/cs348k_report.pdf
