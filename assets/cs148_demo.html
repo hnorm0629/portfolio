@@ -130,7 +130,7 @@
         let newWidth = e.clientX - sliderRect.left;
 
         // Ensure the mask stays within bounds
-        if (newWidth < 0) newWidth = 0;
+        if (newWidth < 10) newWidth = 10;
         if (newWidth > window.innerWidth) newWidth = window.innerWidth;
 
         // Adjust the width of the foreground image container (mask)
