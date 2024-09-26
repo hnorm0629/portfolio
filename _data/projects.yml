@@ -14,6 +14,7 @@ main:
     course: CS231N
     date: June 2024
     report: ./assets/files/cs231n_report.pdf
+    poster: ./assets/files/cs231n_poster.pdf
     image: ./assets/img/cs231n_img.png
 
   - title: "Multispectral Satellite Image Segmentation for Agricultural Land Classification: Mapping Pineapple Plantations in Costa Rica"
