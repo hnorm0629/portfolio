@@ -8,7 +8,7 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 
 ## Updates
 
-- **[Nov 2024]** Won Stanford CS Dept's Course Assistant T-Shirt Competition! See my designs [_here_](https://www.google.com/).
+- **[Nov 2024]** Won Stanford CS Dept's Course Assistant T-Shirt Competition! See my design [_here_](https://www.google.com/).
 - **[Oct 2024]** Continuing graphics and simulation work at Sileom as an independent contractor.
 - **[Sept 2024]** Began Autumn quarter job as Course Assistant for CS148: Introduction to Computer Graphics and Imaging, the highest enrolled class in Stanford's CS Dept (551 students).
 - **[June 2024]** Started my summer internship as a Computer Graphics Engineer at Sileom, an early-stage startup bringing state-of-the-art finite element analysis simulation techniques to VR and AR environments.
@@ -37,5 +37,5 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 **(CS221)** Artificial Intelligence: Principles and Techniques  
 **(CS224N)** Natural Language Processing with Deep Learning  
 **(CS231N)** Deep Learning for Computer Vision  
-**(CS528)** Machine Learning Systems Seminar 
+**(CS528)** Machine Learning Systems Seminar  
 **(ENGR319)** Robotics and Autonomous Systems Seminar
