@@ -30,7 +30,7 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 **(CS248B)** Fundamentals of Computer Graphics: Animation and Simulation  
 **(CS348C)** Computer Graphics: Animation and Simulation  
 **(CS348K)** Visual Computing Systems  
-**(CS468)** Topics in Geometric Computing: 3D and 4D Foundation Models
+**(CS468)** Topics in Geometric Computing: 3D and 4D Foundation Models  
 **(EE292E)** Seminar Series for Image Systems Engineering  
 
 ### AI / Machine Learning
