@@ -8,9 +8,10 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 
 ## Updates
 
-- **[Nov 2024]** Won Stanford CS Dept's Course Assistant T-Shirt Competition! See my design [_here_](https://www.google.com/).
+- **[Jan 2025]** Went full-time at Sileom as a software engineer, where I integrated Sileom’s immersive FE simulation backend with [nTop](https://www.ntop.com)’s CAD frontend to deliver accurate, high-fidelity static analysis results in real-time to users without them ever having to leave the design environment.
+- **[Nov 2024]** Won Stanford CS Dept's Course Assistant T-Shirt Competition!
 - **[Oct 2024]** Continuing graphics and simulation work at Sileom as an independent contractor.
-- **[Sept 2024]** Began Autumn quarter job as Course Assistant for CS148: Introduction to Computer Graphics and Imaging, the highest enrolled class in Stanford's CS Dept (551 students).
+- **[Sept 2024]** Began Autumn quarter job as Course Assistant for CS148: Introduction to Computer Graphics and Imaging, the highest enrolled class in Stanford's CS Dept (550 students).
 - **[June 2024]** Started my summer internship as a Computer Graphics Engineer at Sileom, an early-stage startup developing state-of-the-art meshless finite element analysis simulation techniques.
 - **[June 2024]** Finished Year 1 of my MSCS! Check out what I worked on below.
 - **[Apr 2024]** Won Stanford CS Dept's Annual Unofficial T-Shirt and Hoodie Competition for the 2023-24 academic year! See my designs [_here_](https://movementink.bigcartel.com/product/stanford-black-shirt).
@@ -27,8 +28,10 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 **(CS149)** Parallel Computing  
 **(CS248A)** Computer Graphics: Rendering, Geometry, and Image Manipulation  
 **(CS248B)** Fundamentals of Computer Graphics: Animation and Simulation  
+**(CS348C)** Computer Graphics: Animation and Simulation  
 **(CS348K)** Visual Computing Systems  
 **(CS468)** Topics in Geometric Computing: 3D and 4D Foundation Models
+**(EE292E)** Seminar Series for Image Systems Engineering  
 
 ### AI / Machine Learning
 
@@ -37,5 +40,6 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 **(CS221)** Artificial Intelligence: Principles and Techniques  
 **(CS224N)** Natural Language Processing with Deep Learning  
 **(CS231N)** Deep Learning for Computer Vision  
+**(CS281)** Ethics of Artificial Intelligence  
 **(CS528)** Machine Learning Systems Seminar  
 **(ENGR319)** Robotics and Autonomous Systems Seminar
