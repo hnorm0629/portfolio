@@ -8,7 +8,7 @@ I am a Computer Science Masters student at Stanford University, where I'm pursui
 
 ## Updates
 
-- **[Jan 2025]** Went full-time at Sileom as a software engineer, where I'm integrating our immersive FE simulation backend with [nTop](https://www.ntop.com)’s CAD frontend to deliver accurate, high-fidelity static analysis results in real-time to users without them ever having to leave the design environment.
+- **[Jan 2025]** Went full-time at Sileom as a software engineer, where I'm integrating our meshless FE simulation back end with [nTop](https://www.ntop.com)’s computational design front end to deliver accurate, high-fidelity static analysis results in real-time to users without them ever having to leave the design environment.
 - **[Nov 2024]** Won Stanford CS Dept's Course Assistant T-Shirt Competition!
 - **[Oct 2024]** Continuing graphics and simulation work at Sileom as an independent contractor.
 - **[Sept 2024]** Began Autumn quarter job as Course Assistant for CS148: Introduction to Computer Graphics and Imaging, the highest enrolled class in Stanford's CS Dept (550 students).
