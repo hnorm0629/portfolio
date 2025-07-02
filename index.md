@@ -8,7 +8,7 @@ I'm a recent Computer Science M.S. graduate from Stanford University, where I sp
 
 ## Updates
 
-- **[June 2025]** Graduated from Stanford with an MSCS and a specialization in Visual Computing!
+- **[June 2025]** Graduated from Stanford with a Master's in Computer Science!
 - **[Jan 2025]** Went full-time at Sileom as a software engineer, where I'm integrating our meshless FE simulation back end with [nTop](https://www.ntop.com)’s computational design front end to deliver accurate, high-fidelity static analysis results in real-time to users without them ever having to leave the design environment.
 - **[Nov 2024]** Won Stanford CS Dept's Course Assistant T-Shirt Competition!
 - **[Oct 2024]** Continuing graphics and simulation work at Sileom as an independent contractor.
