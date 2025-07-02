@@ -6,7 +6,7 @@ main:
     demo: https://drive.google.com/file/d/1DmlzLB06ktHrZ9LNBhybqpx2Nah3RVzq/view?usp=sharing
     demo: https://drive.google.com/file/d/1EPdZR8C9uWfyBLcRp5y_h7cnfVN5J-P0/view?usp=sharing
     demo: https://drive.google.com/file/d/1z_E8VlcoMAW3uwI6wY_-Cdi-f5aCMeHf/view?usp=sharing
-    image: ./assets/img/cs348c_img.png
+    image: ./assets/img/cs348c_img2.png
 
   - title: "SDFace: Boundary-Aware Face Extraction from FM-Generated Implicit 3D Geometries"
     description: I developed SDFace, a method for extracting surfaces from implicit 3D geometries using signed distance functions, bypassing meshing to streamline FEA boundary integration.
