@@ -1,4 +1,12 @@
 main:
+  - title: "Identifying and Addressing Bias in AI Face Generators"
+    description: We benchmarked bias in popular face generators, revealing quality gaps for marginalized groups and introducing a CLIP-based sampling method to improve fidelity without retraining.
+    course: CS281
+    date: June 2025
+    report: ./assets/files/cs281_report.pdf
+    poster: ./assets/files/cs281_poster.pdf
+    image: ./assets/img/cs281_img.png
+
   - title: "VFX Studies in Houdini: Procedural Modeling, Dynamics, and Character & Audio FX"
     description: I created a series of Houdini projects exploring procedural modeling, dynamic simulations, and character-driven audio and visual effects. Three video demos are linked below.
     course: CS348C
@@ -11,7 +19,7 @@ main:
   - title: "SDFace: Boundary-Aware Face Extraction from FM-Generated Implicit 3D Geometries"
     description: I developed SDFace, a method for extracting surfaces from implicit 3D geometries using signed distance functions, bypassing meshing to streamline FEA boundary integration.
     course: CS468
-    date: Dec 2025
+    date: Dec 2024
     report: ./assets/files/cs468_report.pdf
     code: https://github.com/hnorm0629/cs468-final-project
     image: ./assets/img/cs468_img2.png
