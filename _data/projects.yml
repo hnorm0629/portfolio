@@ -5,7 +5,7 @@ main:
     date: Dec 2025
     report: ./assets/files/cs468_report.pdf
     code: https://github.com/hnorm0629/cs468-final-project
-    image: ./assets/img/cs468_img.png
+    image: ./assets/img/cs468_img2.png
 
   - title: "DyDef: A Visualization Tool for Dynamic Deformations on Shell Objects"
     description: I enhanced a software library and its accompanying application, HalfPipe, to improve the visualization and simulation of dynamic deformations on shell structures.
