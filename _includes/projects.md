@@ -30,6 +30,12 @@
       {% if link.demo %} 
       <a href="{{ link.demo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Demo</a>
       {% endif %}
+      {% if link.demo2 %} 
+      <a href="{{ link.demo2 }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Demo</a>
+      {% endif %}
+      {% if link.demo3 %} 
+      <a href="{{ link.demo3 }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Demo</a>
+      {% endif %}
       {% if link.poster %} 
       <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
       {% endif %}
