@@ -1,4 +1,11 @@
 main:
+  - title: "SDFace: Boundary-Aware Face Extraction from FM-Generated Implicit 3D Geometries"
+    description: I developed SDFace, a method for extracting surfaces from implicit 3D geometries using signed distance functions, bypassing meshing to streamline FEA boundary integration.
+    course: CS468
+    date: Dec 2025
+    report: ./assets/files/cs468_report.pdf
+    code: https://github.com/hnorm0629/cs468-final-project
+    image: ./assets/img/cs468_img.png
 
   - title: "DyDef: A Visualization Tool for Dynamic Deformations on Shell Objects"
     description: I enhanced a software library and its accompanying application, HalfPipe, to improve the visualization and simulation of dynamic deformations on shell structures.
