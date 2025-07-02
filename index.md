@@ -4,10 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am a Computer Science Masters student at Stanford University, where I'm pursuing an MSCS with a specialization in Visual Computing, which sits at the intersection of AI/ML, graphics, and systems. My interests lie specifically in Computer Graphics and Geometric Computing, and in developing tools to empower creativity.
+I'm a recent Computer Science M.S. graduate from Stanford University, where I specialized in Visual Computing — a field at the intersection of graphics, systems, and machine learning. My work focuses on computer graphics and geometric computing, and I'm especially passionate about building tools that empower creative expression and design. I enjoy working across the software stack, from numerical backends and simulation engines to interactive frontend systems.
 
 ## Updates
 
+- **[June 2025]** Graduated from Stanford with an MSCS and a specialization in Visual Computing!
 - **[Jan 2025]** Went full-time at Sileom as a software engineer, where I'm integrating our meshless FE simulation back end with [nTop](https://www.ntop.com)’s computational design front end to deliver accurate, high-fidelity static analysis results in real-time to users without them ever having to leave the design environment.
 - **[Nov 2024]** Won Stanford CS Dept's Course Assistant T-Shirt Competition!
 - **[Oct 2024]** Continuing graphics and simulation work at Sileom as an independent contractor.
